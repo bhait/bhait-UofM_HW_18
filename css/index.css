@@ -89,14 +89,17 @@ h1 {
   background: rgb(100, 100, 100) ;
 }
 
-.grid-container > div {
-  padding-top: 42%;
+.grid-container > div{
+  padding-top: 37%;
+  background-color: rgb(160, 160, 160);
+}
+
+h3 {
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 50px;
   font-weight: 600;
   color: white;
-  background-color: rgb(160, 160, 160);
 }
 
 /* Footer */

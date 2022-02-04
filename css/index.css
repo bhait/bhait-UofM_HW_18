@@ -1,0 +1,133 @@
+body {
+  margin-top: 10px;
+}
+
+a:hover{
+  opacity: 40%;
+}
+
+/* Navigation */
+.nav {
+  overflow: hidden;
+  padding: 20px 60px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 30px;
+}
+
+.header-right {
+  float: right;
+  margin-right: 30px;
+}
+
+.header-right a {
+  line-height: 60px;
+  padding-left: 40px;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+/* Text */
+p {
+  font-size: 20px;
+  text-align: left;
+  border-bottom: 2px solid black;
+  line-height: 10px;
+  margin-top: 60px;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: black;
+}
+
+p span {
+  margin-left: -25px;
+  background: white;
+  padding: 3px 30px;
+}
+
+h1 {
+  font-size: 75px;
+  line-height: 110px;
+  text-align: left;
+  margin-top: 60px;
+  margin-left: 94px;
+  margin-right: 94px;
+  margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+/* Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 770px 770px;
+  grid-template-rows: 770px 770px;
+  justify-content: center;
+  grid-gap: 25px;
+}
+
+.grid-container .Project1:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project2:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project3:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container .Project4:hover {
+  background: rgb(100, 100, 100) ;
+}
+
+.grid-container > div {
+  padding-top: 42%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(160, 160, 160);
+}
+
+/* Footer */
+.flex-icons {
+  display: flex;
+  flex-wrap: row;
+  justify-content: center;
+  border-top: 2px solid black;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+.flex-icons a{
+  color: black;
+
+}
+
+.fa {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 25px;
+}
